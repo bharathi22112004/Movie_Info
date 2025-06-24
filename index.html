@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Movie Search App</title>
+  <link rel="stylesheet" href="./movie.css" />
+  <script src="./movie.js" defer></script>
+</head>
+<body>
+  <div class="search-section">
+    <h1>🎬 Movie Explorer</h1>
+    <input type="text" placeholder="Search any movie..." id="abc" />
+    <button onclick="movie()">Search</button>
+  </div>
+
+  <div class="container">
+    <div class="info-card">
+      <h2>Title: <span id="tit"></span></h2>
+      <p>🎟 Box Office: <span id="bc"></span></p>
+      <p>📖 Plot: <span id="cd"></span></p>
+      <p>📅 Released: <span id="de"></span></p>
+      <p>🎬 Director: <span id="fg"></span></p>
+      <p>🎭 Actors: <span id="gh"></span></p>
+      <p>✍️ Writer: <span id="hr"></span></p>
+      <p>🏆 Awards: <span id="re"></span></p>
+      <p>⭐ IMDB: <span id="ge"></span></p>
+    </div>
+    <div class="poster">
+      <img src="./Empty_frame.jpg" alt="Movie Poster" id="photo" />
+    </div>
+  </div>
+</body>
+</html>
